@@ -8,6 +8,6 @@ The purpose of this project is to have a place where I can show a little of who 
 
 This project, however, really helped me become more comfortable with learning about development tools, libraries, and languages. The site is still UNDER CONSTRUCTION... even though this was a project I started about 6 months ago, but some of the sections have content (including the Software Development section). Take a look!
 
-![https://guillonapa.github.io/](https://guillonapa.github.io/)
+[https://guillonapa.github.io/](https://guillonapa.github.io/)
 
 ![picture](images/personal-website.png)
