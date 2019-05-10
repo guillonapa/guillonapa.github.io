@@ -10,4 +10,4 @@ This project, however, really helped me become more comfortable with learning ab
 
 [https://guillonapa.github.io/](https://guillonapa.github.io/)
 
-![picture](images/personal-website.png)
+![picture](trash/images/personal-website.png)

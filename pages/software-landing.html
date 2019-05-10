@@ -1,269 +1,170 @@
-<!DOCTYPE HTML>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Software Development</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="../assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body>
+---
+layout: main
+bannerStyle: style1
+---
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+{% include header.html %}
 
-				<!-- Header -->
-				<!-- Note: The "styleN" class below should match that of the banner element. -->
-					<header id="header" class="alt style1">
-						<a href="../index.html" class="logo"><strong>Guillo</strong> <span>my Personal Site</span></a>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+<!-- Banner -->
+<!-- Note: The "styleN" class below should match that of the header element. -->
+<section id="banner" class="{{ page.bannerStyle }}">
+	<div class="inner">
+		<span class="image">
+			<img src="/images/actual/index/neural-net.jpg" alt="" />
+		</span>
+		<header class="major">
+			<h1>Software Development</h1>
+		</header>
+		<div class="content">
+			<p>Personal projects that I've coded for fun and other cool class projects.</p>
+		</div>
+	</div>
+</section>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-								<li><a href="../index.html">Home</a></li>
-								<li><a href="software-landing.html">Software</a></li>
-								<li><a href="physics-landing.html">Physics</a></li>
-								<li><a href="photo-landing.html">Photography</a></li>
-								<li><a href="pdf-views/resume.html">Resume</a></li>
-								<li><a href="construction.html">Fencing</a></li>
-								<li><a href="construction.html">Hobbies</a></li>
-						</ul>
-					</nav>
+<!-- Main -->
+<div id="main">
 
-				<!-- Banner -->
-				<!-- Note: The "styleN" class below should match that of the header element. -->
-					<section id="banner" class="style1">
-						<div class="inner">
-							<span class="image">
-								<img src="../images/neural-net.jpg" alt="" />
-							</span>
-							<header class="major">
-								<h1>Software Development</h1>
-							</header>
-							<div class="content">
-								<p>Personal projects that I've coded for fun and other cool class projects.</p>
-							</div>
-						</div>
-					</section>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- One -->
-							<section id="one">
-								<div class="inner">
-									<header class="major">
-										<h2>My Projects</h2>
-									</header>
-									<p>Some of this projects are big and some are small. Some of them are just for fun, some others are more like little projects that I do to teach myself a new language, and some others are class projects that I think are really cool. Here you can see a screenshot of each of the projects and a short description of them.</p>
-								</div>
-							</section>
-
-						<!-- Two -->
-							<section id="two" class="spotlights">
-								<section>
-									<a href="https://github.com/guillonapa/Pong-Game" class="image">
-										<img src="../images/pong_screen_2.png" alt="" data-position="center center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Pong Game in Java</h3>
-											</header>
-											<p>My own version of the game of Pong implemented in Java through the Processing platform. The game includes a normal mode, a gravity mode, and a random pattern mode (shown in image). Check it out on <a href="https://github.com/guillonapa/Pong-Game">GitHub</a>!</p>
-											<!-- <ul class="actions">
-												<li><a href="pong-demo.html" class="button">Learn more</a></li>
-											</ul> -->
-										</div>
-									</div>
-								</section>
-
-								<section>
-									<a href="https://b-catalog.herokuapp.com" class="image">
-										<img src="../images/b-catalog.png" alt="" data-position="center center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Brandeis Course Catalog</h3>
-											</header>
-											<p>A site built on Ruby on Rails where the user can search a database containing courses offered at Brandeis University. The purpose was to learn how to implement authentication, user login, using an MVC architecture. I also learned AJAX for this excersise. You can check it out <a href="https://b-catalog.herokuapp.com">here</a>!</p>
-											<!-- <ul class="actions">
-												<li><a href="pong-demo.html" class="button">Learn more</a></li>
-											</ul> -->
-										</div>
-									</div>
-								</section>
-
-								<section>
-									<a href="https://github.com/guillonapa/guillonapa.github.io" class="image">
-										<img src="../images/personal-website.png" alt="" data-position="25% 25%" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Personal Website</h3>
-											</header>
-											<p>Personal website that I built using a library from HTML5 UP. The site has software development projects, photographic projects, some of my Physics research, and other interesting things that I've done. This is a work in progress. The source code can be seen <a href="https://github.com/guillonapa/guillonapa.github.io">here</a>.</p>
-											<!-- <ul class="actions">
-												<li><a href="pong-demo.html" class="button">Learn more</a></li>
-											</ul> -->
-										</div>
-									</div>
-								</section>
-
-								<section>
-									<a href="https://github.com/guillonapa/Aspirin-X" class="image">
-										<img src="../images/aspirinx.png" alt="" data-position="25% 25%" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Cloud IDE for Programming Assignments (University Courses)</h3>
-											</header>
-											<p>A web application to seamlessly connect professors, teaching assistants, and students, allowing for an accelerated learning in computer science classes. AspirinX is programming assignments in the cloud. This is a web-based application being developed by a team of four people using Ruby on Rails and some JavaScript. You can check out the ongoing project on our <a href="https://github.com/guillonapa/Aspirin-X">GitHub repository</a>! The project will be finished by the end of December 2017.</p>
-											<!-- <ul class="actions">
-												<li><a href="../generic.html" class="button">Learn more</a></li>
-											</ul> -->
-										</div>
-									</div>
-								</section>
-
-								<section>
-									<a href="https://monty-hall-show.herokuapp.com/" class="image">
-										<img src="../images/monty-hall.png" alt="" data-position="top center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>The Monty Hall Show - Quick Coding Challenge</h3>
-											</header>
-											<p>A one-day coding project that I did as a way of practicing HTML, CSS, JavaScript and JQuery after I taught them to myself. Check out the project <a href="https://monty-hall-show.herokuapp.com/">online</a> or the see the code at my <a href="https://github.com/guillonapa/Monty_Hall">Github repository</a>.</p>
-											<!-- <ul class="actions">
-												<li><a href="../generic.html" class="button">Learn more</a></li>
-											</ul> -->
-										</div>
-									</div>
-								</section>
-								<section>
-									<a href="https://github.com/guillonapa/Polymer-Random-Walk" class="image">
-										<img src="../images/random-walk-simulation.png" alt="" data-position="25% 25%" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Simulation of a Flexible Polymer's Random Walk</h3>
-											</header>
-											<p>A Physics research project with strong computational elements, where we tried to simulate the behavior of flexible polymers, in an attempt to extract relevant statistics that might help us predict future polymer behavior. The simulation itself is a Java program. The user can specify in the code the number of monomers (units) that the polymer will have, and the number of simulations that the program will be run. Then important statistics are calculated and written in a file specified by the user. See the project's GitHub <a href="https://github.com/guillonapa/Polymer-Random-Walk">here</a>.</p>
-											<!-- <ul class="actions">
-												<li><a href="../generic.html" class="button">Learn more</a></li>
-											</ul> -->
-										</div>
-									</div>
-								</section>
-								<section>
-									<a href="https://a-react-ion.herokuapp.com/" class="image">
-										<img src="../images/react-ion.png" alt="" data-position="top center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>React-Ion</h3>
-											</header>
-											<p>A simple application that I will build with the goal of learning how to use the React libraries in this and other projects. Check out the project <a href="https://a-react-ion.herokuapp.com/">online</a> or the see the code at my <a href="https://github.com/guillonapa/react-ion">Github repository</a>.</p>
-											<!-- <ul class="actions">
-												<li><a href="../generic.html" class="button">Learn more</a></li>
-											</ul> -->
-										</div>
-									</div>
-								</section>
-							</section>
-
-						<!-- Three -->
-							<!-- <section id="three">
-								<div class="inner">
-									<header class="major">
-										<h2>Massa libero</h2>
-									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-									<ul class="actions">
-										<li><a href="../generic.html" class="button next">Get Started</a></li>
-									</ul>
-								</div>
-							</section> -->
-
-					</div>
-
-				<!-- Contact -->
-					<section id="contact">
-						<div class="inner">
-							<section>
-									<div class="contact-method">
-											<span class="icon alt fa-home"></span>
-											<h3>Address</h3>
-											<span>Brandeis University<br />
-											415 South Street,<br />
-											Waltham, MA 02453<br />
-											United States of America</span>
-									</div>
-							</section>
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">gnarvaez@brandeis.edu</a>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(949) 285-2892</span>
-									</div>
-								</section>
-
-							</section>
-						</div>
-					</section>
-
-				<!-- Footer -->
-				<footer id="footer">
-					<div class="inner">
-						<ul class="icons">
-							<!-- <li><a href="https://twitter.com/guillonapa_" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://www.facebook.com/guillo.napa" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="https://www.instagram.com/guillonapa/?hl=en" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li> -->
-							<li><a href="https://github.com/guillonapa" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="https://www.linkedin.com/in/g-narvaez" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; Guillermo Narvaez</li>
-						</ul>
-					</div>
-				</footer>
-
+	<!-- One -->
+		<section id="one">
+			<div class="inner">
+				<header class="major">
+					<h2>My Projects</h2>
+				</header>
+				<p>Some of this projects are big and some are small. Some of them are just for fun, some others are more like little projects that I do to teach myself a new language, and some others are class projects that I think are really cool. Here you can see a screenshot of each of the projects and a short description of them.</p>
 			</div>
+		</section>
 
-		<!-- Scripts -->
-			<script src="../assets/js/jquery.min.js"></script>
-			<script src="../assets/js/jquery.scrolly.min.js"></script>
-			<script src="../assets/js/jquery.scrollex.min.js"></script>
-			<script src="../assets/js/skel.min.js"></script>
-			<script src="../assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="../assets/js/main.js"></script>
+	<!-- Two -->
+		<section id="two" class="spotlights">
+			<section>
+				<a href="https://github.com/guillonapa/Pong-Game" class="image">
+					<img src="/images/actual/software/pong.png" alt="" data-position="center center" />
+				</a>
+				<div class="content">
+					<div class="inner">
+						<header class="major">
+							<h3>Pong Game in Java</h3>
+						</header>
+						<p>My own version of the game of Pong implemented in Java through the Processing platform. The game includes a normal mode, a gravity mode, and a random pattern mode (shown in image). Check it out on <a href="https://github.com/guillonapa/Pong-Game">GitHub</a>!</p>
+						<!-- <ul class="actions">
+							<li><a href="pong-demo.html" class="button">Learn more</a></li>
+						</ul> -->
+					</div>
+				</div>
+			</section>
 
-	</body>
-</html>
+			<section>
+				<a href="https://b-catalog.herokuapp.com" class="image">
+					<img src="/images/actual/software/b-catalog.png" alt="" data-position="center center" />
+				</a>
+				<div class="content">
+					<div class="inner">
+						<header class="major">
+							<h3>Brandeis Course Catalog</h3>
+						</header>
+						<p>A site built on Ruby on Rails where the user can search a database containing courses offered at Brandeis University. The purpose was to learn how to implement authentication, user login, using an MVC architecture. I also learned AJAX for this excersise. You can check it out <a href="https://b-catalog.herokuapp.com">here</a>!</p>
+						<!-- <ul class="actions">
+							<li><a href="pong-demo.html" class="button">Learn more</a></li>
+						</ul> -->
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<a href="https://github.com/guillonapa/guillonapa.github.io" class="image">
+					<img src="/images/actual/software/personal-website.png" alt="" data-position="25% 25%" />
+				</a>
+				<div class="content">
+					<div class="inner">
+						<header class="major">
+							<h3>Personal Website</h3>
+						</header>
+						<p>Personal website that I built using a library from HTML5 UP. The site has software development projects, photographic projects, some of my Physics research, and other interesting things that I've done. This is a work in progress. The source code can be seen <a href="https://github.com/guillonapa/guillonapa.github.io">here</a>.</p>
+						<!-- <ul class="actions">
+							<li><a href="pong-demo.html" class="button">Learn more</a></li>
+						</ul> -->
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<a href="https://github.com/guillonapa/Aspirin-X" class="image">
+					<img src="/images/actual/software/aspirinx.png" alt="" data-position="25% 25%" />
+				</a>
+				<div class="content">
+					<div class="inner">
+						<header class="major">
+							<h3>Cloud IDE for Programming Assignments (University Courses)</h3>
+						</header>
+						<p>A web application to seamlessly connect professors, teaching assistants, and students, allowing for an accelerated learning in computer science classes. AspirinX is programming assignments in the cloud. This is a web-based application being developed by a team of four people using Ruby on Rails and some JavaScript. You can check out the ongoing project on our <a href="https://github.com/guillonapa/Aspirin-X">GitHub repository</a>! The project will be finished by the end of December 2017.</p>
+						<!-- <ul class="actions">
+							<li><a href="../generic.html" class="button">Learn more</a></li>
+						</ul> -->
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<a href="https://monty-hall-show.herokuapp.com/" class="image">
+					<img src="/images/actual/software/monty-hall.png" alt="" data-position="top center" />
+				</a>
+				<div class="content">
+					<div class="inner">
+						<header class="major">
+							<h3>The Monty Hall Show - Quick Coding Challenge</h3>
+						</header>
+						<p>A one-day coding project that I did as a way of practicing HTML, CSS, JavaScript and JQuery after I taught them to myself. Check out the project <a href="https://monty-hall-show.herokuapp.com/">online</a> or the see the code at my <a href="https://github.com/guillonapa/Monty_Hall">Github repository</a>.</p>
+						<!-- <ul class="actions">
+							<li><a href="../generic.html" class="button">Learn more</a></li>
+						</ul> -->
+					</div>
+				</div>
+			</section>
+			<section>
+				<a href="https://github.com/guillonapa/Polymer-Random-Walk" class="image">
+					<img src="/images/actual/software/random-walk-simulation.png" alt="" data-position="25% 25%" />
+				</a>
+				<div class="content">
+					<div class="inner">
+						<header class="major">
+							<h3>Simulation of a Flexible Polymer's Random Walk</h3>
+						</header>
+						<p>A Physics research project with strong computational elements, where we tried to simulate the behavior of flexible polymers, in an attempt to extract relevant statistics that might help us predict future polymer behavior. The simulation itself is a Java program. The user can specify in the code the number of monomers (units) that the polymer will have, and the number of simulations that the program will be run. Then important statistics are calculated and written in a file specified by the user. See the project's GitHub <a href="https://github.com/guillonapa/Polymer-Random-Walk">here</a>.</p>
+						<!-- <ul class="actions">
+							<li><a href="../generic.html" class="button">Learn more</a></li>
+						</ul> -->
+					</div>
+				</div>
+			</section>
+			<section>
+				<a href="https://a-react-ion.herokuapp.com/" class="image">
+					<img src="/images/actual/software/react-ion.png" alt="" data-position="top center" />
+				</a>
+				<div class="content">
+					<div class="inner">
+						<header class="major">
+							<h3>React-Ion</h3>
+						</header>
+						<p>A simple application that I will build with the goal of learning how to use the React libraries in this and other projects. Check out the project <a href="https://a-react-ion.herokuapp.com/">online</a> or the see the code at my <a href="https://github.com/guillonapa/react-ion">Github repository</a>.</p>
+						<!-- <ul class="actions">
+							<li><a href="../generic.html" class="button">Learn more</a></li>
+						</ul> -->
+					</div>
+				</div>
+			</section>
+		</section>
+
+	<!-- Three -->
+		<!-- <section id="three">
+			<div class="inner">
+				<header class="major">
+					<h2>Massa libero</h2>
+				</header>
+				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+				<ul class="actions">
+					<li><a href="../generic.html" class="button next">Get Started</a></li>
+				</ul>
+			</div>
+		</section> -->
+
+</div>
