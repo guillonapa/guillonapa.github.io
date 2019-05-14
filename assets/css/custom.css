@@ -1,0 +1,11 @@
+.contact-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 600px) {
+    .contact-row {
+        display: flex;
+        justify-content: space-between;
+    }
+}
